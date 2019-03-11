@@ -8,7 +8,7 @@ let page;
 describe('Tests of searching for accommodations', function(){
 
   beforeEach(function(){
-    page = basePage();
+    page = visit();
   });
 
   afterEach(function(){
